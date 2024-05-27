@@ -19,8 +19,14 @@ body {
     background-image: url(globoplay-disney-2-68156-.webp);
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: right;
+    
 }
 
 .container {
-height: 5vh;
+height: 40vh;
+}
+
+.sla{
+    width: 20%;
 }
