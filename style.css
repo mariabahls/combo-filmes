@@ -3,16 +3,11 @@
     --branco-secundario: #FFFFFF; 
     --botao-azul: #167bf7;
     --cor-de-fundo: #00030c;
-    --fonte-principal: ' Inter';
-    --botao-aul-efeito:
 }
 
 body {
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal)
-    font-family: var(--fonte-principal);
-    font-size:16px;
-    font-weight:400;
 }
 
 * {
@@ -24,34 +19,14 @@ body {
     background-image: url(globoplay-disney-2-68156-.webp);
     background-repeat: no-repeat;
     background-size: contain;
-    align-items: center;
-    text-align: center;
+    background-position: right;
     
 }
 
 .container {
 height: 40vh;
-display: gri;
-grid-template-columns: 50% 50%;
 }
 
-.container__botao {
- background-color: var( --botao-azul);
- border-radius:5px ;
- padding: 1em;
- color: var(--branco-principal);
- display:block;
- text-decoration: none;
- margin-bottom: 1em;
-
-}
-.botao__secundario{
-background-color: transparent;
-border:2px solid var(--branco-principal)
-
-}
-
-.container
 .sla{
     width: 20%;
 }
